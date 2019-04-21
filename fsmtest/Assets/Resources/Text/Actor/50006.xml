@@ -1,0 +1,18 @@
+﻿<Actor Id="50006" Name="缝合怪">
+  
+   <Skill Id="5000601"  Name="普攻"  StateTime="1.333"  CD="3"  CastDistance="2.5" Pos="0">
+       <Parallel>
+            <Anim   AnimName="attack_01"    JudgeName="Owner"/>
+            <Sequence>
+                <Wait Seconds="0.75"/>
+                <Judge  Region="3"  Affect="2"  MaxDis="2.5"  HAngle="120"  Height="2"  JudgeName="Owner">
+                      <Sequence>
+                             <Hurt   Damage="1"  Percent="1.21"/>
+                             <Hit/>
+                     </Sequence>
+               </Judge>
+           </Sequence>
+      </Parallel>
+  </Skill>
+  
+</Actor>

@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD Level="0" RequireExp="60" AwardID="" Icon="" Desc=""/>
+<RECORD Level="1" RequireExp="120" AwardID="" Icon="" Desc=""/>
+<RECORD Level="2" RequireExp="180" AwardID="" Icon="" Desc=""/>
+<RECORD Level="3" RequireExp="240" AwardID="" Icon="" Desc=""/>
+<RECORD Level="4" RequireExp="300" AwardID="" Icon="" Desc=""/>
+<RECORD Level="5" RequireExp="360" AwardID="" Icon="" Desc=""/>
+<RECORD Level="6" RequireExp="420" AwardID="" Icon="" Desc=""/>
+<RECORD Level="7" RequireExp="480" AwardID="" Icon="" Desc=""/>
+<RECORD Level="8" RequireExp="540" AwardID="" Icon="" Desc=""/>
+<RECORD Level="9" RequireExp="600" AwardID="" Icon="" Desc=""/>
+<RECORD Level="10" RequireExp="660" AwardID="" Icon="" Desc=""/>
+<RECORD Level="11" RequireExp="720" AwardID="" Icon="" Desc=""/>
+<RECORD Level="12" RequireExp="780" AwardID="" Icon="" Desc=""/>
+</RECORDS>

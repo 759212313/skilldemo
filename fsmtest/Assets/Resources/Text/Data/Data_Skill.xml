@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD Id="1001" Name="连环斩1" IsNormal="1" IsDisplay="0" Icon="Textures/Skill/001" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1002" Name="连环斩2" IsNormal="1" IsDisplay="0" Icon="Textures/Skill/002" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1003" Name="连环斩3" IsNormal="1" IsDisplay="0" Icon="Textures/Skill/003" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1004" Name="连环斩4" IsNormal="1" IsDisplay="0" Icon="Textures/Skill/004" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1005" Name="半月斩" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/005" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1006" Name="神威斩" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/006" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1007" Name="守护天使" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/007" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1008" Name="燎原之光" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/008" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1009" Name="破邪斩" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/009" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1010" Name="闪电之球" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/010" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1011" Name="天罡北斗阵" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/011" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1012" Name="登陆展示" IsNormal="0" IsDisplay="1" Icon="Textures/Skill/012" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1013" Name="七劫斩龙决" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/013" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1014" Name="真元护体" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/014" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1015" Name="剑气通明" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/015" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1016" Name="天剑随心" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/016" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1017" Name="修身养气" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/017" SkillType="1" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="1018" Name="诛仙剑气" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/018" SkillType="0" EntinyId="1" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2001" Name="火球术1" IsNormal="1" IsDisplay="0" Icon="Textures/Skill/019" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2002" Name="火球术2" IsNormal="1" IsDisplay="0" Icon="Textures/Skill/020" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2003" Name="火球术3" IsNormal="1" IsDisplay="0" Icon="Textures/Skill/021" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2004" Name="火球术4" IsNormal="1" IsDisplay="0" Icon="Textures/Skill/022" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2005" Name="火球术5" IsNormal="1" IsDisplay="0" Icon="Textures/Skill/023" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2006" Name="寒冰散射" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/024" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2007" Name="龙息术" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/025" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2008" Name="冰霜风暴" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/026" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2009" Name="地火攻击" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/027" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2010" Name="冰封" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/028" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2011" Name="炎爆术" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/029" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2012" Name="登陆展示" IsNormal="0" IsDisplay="1" Icon="Textures/Skill/030" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2013" Name="地狱烈焰" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/031" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2014" Name="寒霜护体" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/032" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2015" Name="冰霜之影" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/033" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2016" Name="冰龙决" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/034" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2017" Name="灵力充沛" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/035" SkillType="1" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+<RECORD Id="2018" Name="八荒玄火阵" IsNormal="0" IsDisplay="0" Icon="Textures/Skill/036" SkillType="0" EntinyId="2" Priority="" CountDown="" SkillCostType="" SkillCostNum="" Desc=""/>
+</RECORDS>

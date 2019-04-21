@@ -1,0 +1,200 @@
+﻿<Actor Id="1">
+  <Skill Id="1001"  Name="连环斩1"  StateTime="0.367"  CD="0"  CastDistance="3.0"  Pos="0">
+        <Parallel>
+            <Anim   AnimName="attack_01"  Sound="sound_attack1_shengwushi_01"   JudgeName="Owner"/>      
+            <Effect Id="61009" LastTime="0.367"  Bind="3"/>
+            <Sequence>
+                 <Wait Seconds="0.2"/>
+                 <Judge  Region="3"  Affect="2"  MaxDis="4.0"  HAngle="180"  Height="2"  JudgeName="Owner">
+                     <Parallel>
+                         <SuckBlood  Percent="2.15" Rate="1"/>
+                         <ShakeScreen/>
+                    </Parallel>
+                </Judge>               
+           </Sequence>
+       </Parallel>
+ </Skill>
+
+  <Skill Id="1002"  Name="连环斩2"  StateTime="0.333"  CD="0"  CastDistance="3.0"  Pos="0">
+      <Parallel>
+           <Anim   AnimName="attack_02"  Sound="sound_attack1_shengwushi_02"     JudgeName="Owner"/>
+           <Effect Id="61010" LastTime="0.333"  Bind="3"/>
+           <Sequence>
+               <Wait Seconds="0.2"/>
+               <Judge  Region="3"  Affect="2"  MaxDis="4.0"  HAngle="180"  Height="2"  JudgeName="Owner">
+                 <Hurt   Damage="1"  Percent="1.12"/>
+              </Judge>
+          </Sequence>
+      </Parallel>
+  </Skill>
+
+  <Skill Id="1003"  Name="连环斩3"  StateTime="0.367"  CD="0"  CastDistance="3.0"  Pos="0">
+      <Parallel>
+           <Anim   AnimName="attack_03"  Sound="sound_attack1_shengwushi_03"/>
+           <Effect Id="61011" LastTime="0.367"  Bind="3"  JudgeName="Owner"/>
+           <Sequence>
+               <Wait Seconds="0.2"/>
+               <Judge  Region="3"  Affect="2"  MaxDis="4.0"  HAngle="180"  Height="2"  JudgeName="Owner">
+                   <Hurt   Damage="1"  Percent="1.14"/>
+              </Judge>
+          </Sequence>
+      </Parallel>
+  </Skill>
+
+  <Skill Id="1004"  Name="连环斩4"  StateTime="1.167"  CD="0"  CastDistance="3.0"  Pos="0">
+      <Parallel>
+        <Anim   AnimName="attack_04"  Sound="sound_attack1_shengwushi_04"   JudgeName="Owner"/>
+        <Effect Id="61012" LastTime="1.167"  Bind="3"/>
+        <Sequence>
+             <Wait Seconds="0.7"/>
+             <Judge   Region="2"  Affect="2"  H="2.0" L="5.0" W="2.0" JudgeName="Owner">
+                 <Hurt   Damage="1"  Percent="1.30"/>
+            </Judge>
+       </Sequence>        
+    </Parallel>
+  </Skill>
+
+  <Skill Id="1005"   Name="半月斩"  StateTime="2.333"  CostType="1"  CostNum="10"  CD="12"   CastDistance="3.0" Pos="1">
+    <Sequence>
+       <Parallel>
+            <Anim   AnimName="xuli_01"  Sound="sound_roar_shengwushi_01"/>
+            <Effect Id="61020" LastTime="1.233"  Bind="3"  Sound=""/>
+      </Parallel>
+       <Parallel>
+            <Anim   AnimName="xuli_02"  Sound="sound_roar_shengwushi_02"/>
+            <Effect Id="64054" LastTime="1.133"  Bind="3"  Sound="sound_explosion" JudgeName="Owner"/>
+            <Sequence>
+                 <Judge  Region="3"  Affect="2"  MaxDis="5.0"  HAngle="360"  Height="2"  JudgeName="Owner"/>
+                 <Hurt   Damage="1"  Percent="1.70"/>
+           </Sequence>
+      </Parallel>
+  </Sequence>
+ </Skill>
+
+  <Skill Id="1006"   Name="神威斩"  StateTime="2.233"  CostType="1"  CostNum="10"  CD="7"  CastDistance="4.0" Pos="2">
+       <Sequence>
+           <Anim   AnimName="skill_shenweizhan_01"  Sound="sound_skill_shengwushi_shenweizhan"  JudgeName="Owner"/>
+           <Parallel>  
+               <Anim   AnimName="skill_shenweizhan_02"/>
+               <Effect Id="61018" LastTime="1.30"  Bind="3"/>
+               <Sequence>
+                   <Wait Seconds="0.5"/>
+                   <Judge  Region="2"  Affect="2"  H="2"  L="5" W="2" JudgeName="Owner">
+                      <Hurt   Damage="1"  Percent="3.20"/>
+                  </Judge>
+                   <Judge  Region="3"  Affect="1"  MaxDis="5"  HAngle="360"  Height="2" JudgeName="Owner">
+                      <Hurt   Damage="3"  Percent="2.50"/>
+                  </Judge>
+              </Sequence>             
+          </Parallel>
+      </Sequence>
+ </Skill>
+
+  <Skill Id="1007"   Name="守护天使"  StateTime="1.433"  CostType="1"  CostNum="10"  CD="5" Pos="3">
+       <Sequence>
+           <Anim   AnimName="skill_shouhutianshi_01"  Sound="sound_skill_shengwushi_shouhutianshi1"/>
+           <Parallel>
+               <Anim   AnimName="skill_shouhutianshi_02"  Sound="sound_skill_shengwushi_shouhutianshi2"/>
+               <Effect Id="61019" LastTime="1.100"  Bind="3"/>
+               <Sequence>
+                    <Wait  Senconds="0.7"/>
+                    <AddBuff BuffID="201002"  Affect="1"  Ratio="1"/>
+                    <Parallel>
+                        <Parallel>
+                            <Effect Id="64029" LastTime="1.000"  Bind="3"  Sound="sound_explosion" JudgeName="Owner1"  Offset="(0,0,0)"/>
+                            <Judge  Region="3"  Affect="2"  MaxDis="2.0"  HAngle="360"  Height="2" JudgeName="Owner1">
+                                <Hurt   Damage="1"  Percent="1.45"/>
+                            </Judge>
+                       </Parallel>
+                        <Parallel>
+                             <Effect Id="64029" LastTime="1.000"  Bind="3"  Sound="sound_explosion" JudgeName="Owner2"  Offset="(4,0,3)"/>
+                             <Judge  Region="3"  Affect="2"  MaxDis="2.0"  HAngle="360"  Height="2" JudgeName="Owner2">
+                                 <Hurt   Damage="1"  Percent="1.45"/>
+                             </Judge>
+                       </Parallel>
+                        <Parallel>
+                            <Effect Id="64029" LastTime="1.000"  Bind="3"  Sound="sound_explosion" JudgeName="Owner3"  Offset="(3,0,-4)"/>
+                            <Judge  Region="3"  Affect="2"  MaxDis="2.0"  HAngle="360"  Height="2" JudgeName="Owner3">
+                                <Hurt   Damage="1"  Percent="1.45"/>
+                            </Judge>
+                       </Parallel>
+                        <Parallel>
+                            <Effect Id="64029" LastTime="1.000"  Bind="3"  Sound="sound_explosion" JudgeName="Owner4"  Offset="(-4,0,-3)"/>
+                            <Judge  Region="3"  Affect="2"  MaxDis="2.0"  HAngle="360"  Height="2" JudgeName="Owner4">
+                                <Hurt   Damage="1"  Percent="1.45"/>
+                            </Judge>
+                       </Parallel>
+                        <Parallel>
+                            <Effect Id="64029" LastTime="1.000"  Bind="3"  Sound="sound_explosion" JudgeName="Owner5"  Offset="(-3,0,4)"/>
+                            <Judge  Region="3"  Affect="2"  MaxDis="2.0"  HAngle="360"  Height="2" JudgeName="Owner5">
+                                <Hurt   Damage="1"  Percent="1.45"/>
+                            </Judge>
+                        </Parallel>                        
+                    </Parallel>
+              </Sequence>                         
+          </Parallel>                
+      </Sequence>
+  </Skill>
+
+  <Skill Id="1008"   Name="燎原之光"  StateTime="1.766"  CostType="1"  CostNum="10"  CD="30" Pos="4">
+      <Sequence>
+         <Anim   AnimName="skill_chengjiezitai_01"  Sound="sound_skill_shengwushi_chengjiezitai1"/>
+         <Anim   AnimName="skill_chengjiezitai_02"  Sound="sound_skill_shengwushi_chengjiezitai2"/>
+         <Parallel>
+               <Anim   AnimName="skill_chengjiezitai_03"/>
+               <Effect Id="61017" LastTime="1.000"  Bind="3"/>
+               <Effect Id="64054" LastTime="1.000"  Bind="3"  Sound="sound_explosion" JudgeName="Owner"/>
+               <Judge  Region="3"  Affect="2"  MaxDis="5.0"  HAngle="360"  Height="2" JudgeName="Owner">
+                    <Hurt   Damage="1"  Percent="1.45"/>
+              </Judge>
+        </Parallel>
+         <Anim   AnimName="skill_chengjiezitai_04"/>
+     </Sequence>
+  </Skill>
+
+
+  <Skill Id="1009"   Name="破邪斩"  StateTime="2.066"  CostType="1"  CostNum="10" CD="3"  CastDistance="4.0"  Pos="5">
+      <Sequence>
+         <Anim   AnimName="skill_poxiezhan_01"  Sound="sound_skill_shengwushi_poxiezhan"/>
+         <Parallel>
+              <Anim   AnimName="skill_poxiezhan_02"  JudgeName="Owner"/>         
+              <Sequence>
+                   <Wait Seconds="0.5"/>
+                   <Judge  Region="3"  Affect="2"  MaxDis="5.0"  HAngle="360"  Height="2"  JudgeName="Owner"/>                 
+                   <Parallel>
+                        <Hurt   Damage="1"  Percent="1.25"/>
+                        <BeatFly/>
+                  </Parallel>
+             </Sequence>
+              <Effect Id="61016" LastTime="1.30"  Bind="3"/>
+        </Parallel>
+    </Sequence>
+  </Skill>
+  
+  <Skill Id="1010" Name="投掷"   StateTime="1.200"  CostType="1"  CostNum="10"  CD="6"  CastDistance="15" Pos="6">
+        <Parallel>
+             <Anim   AnimName="touzhi"/>
+             <Clone>
+                 <Sequence>
+                     <Wait Seconds="0.40"/>
+                     <Parallel>
+                         <Effect Id="62020" LastTime="1.5"  Dead="1" FlySpeed="20" Bind="1"  Fly="2"  Sound="sound_firebomb" JudgeName="Owner"/>
+                         <Judge  Region="1" Affect="2"  Radius="0.5"  MaxCount="1"  JudgeName="Owner"  LifeTime="1.5">
+                             <Hurt   Damage="1"  Percent="0.88"/>
+                        </Judge>
+                    </Parallel>
+                </Sequence>
+            </Clone>
+       </Parallel>
+  </Skill>
+
+  <Skill Id="1012"   Name="登陆展示技能"  StateTime="2.066"  CD="3"  Pos="9">
+      <Sequence>
+        <Anim   AnimName="skill_poxiezhan_01"  Sound="sound_skill_shengwushi_poxiezhan"/>
+        <Parallel>
+             <Anim   AnimName="skill_poxiezhan_02"/>
+             <Effect Id="61016" LastTime="1.30"  Bind="3"/>
+       </Parallel>
+     </Sequence>
+  </Skill>
+</Actor>

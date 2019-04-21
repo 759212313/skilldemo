@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD Id="101" Name="天生神力" Desc="增加10%攻击力" Attr1="5" Value1="1000" ValueType1="1" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="102" Name="强健体魄" Desc="增加10%最大生命值" Attr1="1" Value1="1000" ValueType1="1" Attr2="5" Value2="2500" ValueType2="1" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="103" Name="护体" Desc="增加10%防御" Attr1="6" Value1="1000" ValueType1="1" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="104" Name="嗜血" Desc="增加30%攻击,15%爆击,15%爆击伤害" Attr1="5" Value1="3000" ValueType1="1" Attr2="8" Value2="15" ValueType2="0" Attr3="9" Value3="15" ValueType3="0"/>
+<RECORD Id="105" Name="英勇" Desc="增加15%攻击,30%爆击,30%爆击伤害" Attr1="5" Value1="1500" ValueType1="1" Attr2="8" Value2="300" ValueType2="0" Attr3="9" Value3="30" ValueType3="0"/>
+<RECORD Id="106" Name="迅捷" Desc="提高30%移动速度" Attr1="7" Value1="3000" ValueType1="1" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="107" Name="灼烧" Desc="每2秒造成512点火焰伤害" Attr1="2" Value1="512" ValueType1="0" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="108" Name="中毒" Desc="每2秒造成485点自然伤害" Attr1="2" Value1="485" ValueType1="0" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="109" Name="腐烂" Desc="每2秒造成485点暗影伤害" Attr1="2" Value1="485" ValueType1="0" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="110" Name="流血" Desc="每2秒造成733点暗影伤害" Attr1="2" Value1="733" ValueType1="0" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="111" Name="铜墙铁壁" Desc="提高20%防御力" Attr1="6" Value1="2000" ValueType1="1" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="112" Name="威慑" Desc="提高100%闪避" Attr1="13" Value1="5000" ValueType1="1" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="113" Name="愈合" Desc="每2秒治疗3%生命值" Attr1="2" Value1="300" ValueType1="2" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="114" Name="宁静" Desc="每3秒治疗2%生命值" Attr1="2" Value1="300" ValueType1="2" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="115" Name="蛮力" Desc="提高15%攻击力" Attr1="5" Value1="1500" ValueType1="1" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="116" Name="恶魔变身" Desc="变身一个恶魔，提高30%攻击力" Attr1="5" Value1="3000" ValueType1="1" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="117" Name="天神下凡" Desc="变身一个天神，提高30%攻击力" Attr1="5" Value1="3000" ValueType1="1" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="118" Name="绿巨人" Desc="变身一个绿巨人，提高30%攻击力" Attr1="1" Value1="3000" ValueType1="1" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="119" Name="虚弱" Desc="虚弱敌人，降低30%防御力" Attr1="6" Value1="3000" ValueType1="1" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="120" Name="白鹤亮翅" Desc="增加5%吸血" Attr1="10" Value1="5" ValueType1="0" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="121" Name="死神降临" Desc="提高10%攻击力" Attr1="5" Value1="1000" ValueType1="1" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="122" Name="烈焰之王" Desc="提高550攻击" Attr1="5" Value1="550" ValueType1="0" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="123" Name="暴怒" Desc="提高50%爆击率" Attr1="8" Value1="50" ValueType1="0" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="124" Name="僵硬" Desc="减少30%移动速度" Attr1="7" Value1="3000" ValueType1="1" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+<RECORD Id="125" Name="末日诅咒" Desc="每3秒造成3%伤害" Attr1="2" Value1="1000" ValueType1="2" Attr2="" Value2="" ValueType2="" Attr3="" Value3="" ValueType3=""/>
+</RECORDS>

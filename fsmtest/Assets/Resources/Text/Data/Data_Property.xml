@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD Id="1" Name="生命" Factor="1" Desc="生命+{0}" IsPercent="0"/>
+<RECORD Id="2" Name="攻击" Factor="10" Desc="攻击+{0}" IsPercent="0"/>
+<RECORD Id="3" Name="防御" Factor="10" Desc="防御+{0}" IsPercent="0"/>
+<RECORD Id="4" Name="爆击" Factor="10" Desc="爆击+{0}%" IsPercent="1"/>
+<RECORD Id="5" Name="爆伤" Factor="10" Desc="爆伤+{0}%" IsPercent="1"/>
+<RECORD Id="6" Name="能量" Factor="5" Desc="能量+{0}" IsPercent="0"/>
+<RECORD Id="7" Name="吸血" Factor="100" Desc="吸血+{0}%" IsPercent="1"/>
+<RECORD Id="8" Name="命中" Factor="10" Desc="命中+{0}%" IsPercent="1"/>
+<RECORD Id="9" Name="闪避" Factor="5" Desc="闪避+{0}%" IsPercent="1"/>
+<RECORD Id="10" Name="爆防" Factor="5" Desc="溅射+{0}%" IsPercent="1"/>
+<RECORD Id="11" Name="攻击百分百" Factor="0" Desc="攻击提高{0}%" IsPercent="1"/>
+<RECORD Id="12" Name="生命百分比" Factor="0" Desc="生命提高{0}%" IsPercent="1"/>
+<RECORD Id="13" Name="防御百分比" Factor="0" Desc="防御提高{0}%" IsPercent="1"/>
+<RECORD Id="14" Name="能量百分比" Factor="0" Desc="能量提高{0}%" IsPercent="1"/>
+<RECORD Id="15" Name="免伤百分比" Factor="0" Desc="免伤提高{0}%" IsPercent="1"/>
+<RECORD Id="16" Name="回血" Factor="5" Desc="每秒回复{0}点血量" IsPercent="0"/>
+<RECORD Id="17" Name="回魔" Factor="5" Desc="每秒回复{0}点能量" IsPercent="0"/>
+<RECORD Id="18" Name="额外伤害" Factor="5" Desc="攻击有一定几率对敌人造成{0}点额外伤害" IsPercent="0"/>
+<RECORD Id="19" Name="攻击回血" Factor="2" Desc="攻击有一定几率回复{0}点生命值" IsPercent="0"/>
+<RECORD Id="20" Name="攻击回能" Factor="1" Desc="攻击有一定几率回复{0}点能量值" IsPercent="0"/>
+</RECORDS>

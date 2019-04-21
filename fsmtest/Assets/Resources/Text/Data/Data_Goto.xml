@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD Id="1" Desc="前往商城界面" Icon=""/>
+<RECORD Id="2" Desc="前往副本界面" Icon=""/>
+<RECORD Id="3" Desc="前往技能界面" Icon=""/>
+<RECORD Id="4" Desc="前往竞技场" Icon=""/>
+<RECORD Id="5" Desc="前往千层塔" Icon=""/>
+<RECORD Id="6" Desc="前往无底洞" Icon=""/>
+<RECORD Id="7" Desc="前往山海关" Icon=""/>
+<RECORD Id="8" Desc="前往永恒森林" Icon=""/>
+<RECORD Id="9" Desc="前往巨鹿城" Icon=""/>
+<RECORD Id="10" Desc="前往七杀殿" Icon=""/>
+</RECORDS>

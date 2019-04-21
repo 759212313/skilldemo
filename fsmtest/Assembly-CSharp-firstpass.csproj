@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{CCCB0E67-BB8A-AE9C-66A9-B98C77E42DA0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/untiy_5_4/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/untiy_5_4/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Slua_Managed\Coroutine.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\Helper.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\Logger.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\Lua3rdDLL.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\Lua3rdMeta.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\LuaArray.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\LuaDLL.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\LuaDLLWrapper.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\LuaObject.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\LuaObject_basetype.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\LuaObject_overload.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\LuaState.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\LuaSvr.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\LuaSvrGameObject.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\LuaValueType.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\LuaVarObject.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\ObjectCache.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\SLuaSetting.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\Timer.cs" />
+     <Compile Include="Assets\Plugins\Slua_Managed\WeakDictionary.cs" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\NGUI\ReadMe - 3.6.8.txt" />
+     <None Include="Assets\Resources\Text\Data\Data_Task.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Scene.xml" />
+     <None Include="Assets\Res\Texture\Model\Shader\MyMobile Multiply Vert_Forward.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+     <None Include="Assets\Resources\Text\Actor\1.xml" />
+     <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+     <None Include="Assets\Resources\Text\Data\Data_EquipAdvance.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Award.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Resources\Text\Data\Data_EquipAdvanceCost.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+     <None Include="Assets\Resources\Text\Data\Data_Race.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_EquipStar.xml" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\Resources\Text\Data\Data_PartnerStar.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_EquipStrengthen.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Buff.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Item.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_PartnerWash.xml" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Resources\Text\Data\Data_Effect.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Mall.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_HeroLevel.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Entiny.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_PartnerLevel.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Copy.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Quality.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+     <None Include="Assets\Resources\Text\Data\Data_PetLevel.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Store.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Goto.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_PartnerFetter.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+     <None Include="Assets\Resources\Text\Data\Data_StoreType.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+     <None Include="Assets\Resources\Text\Data\Data_Skill.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Resources\Text\Data\Data_Equip.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Resources\Text\Data\Data_GemSuit.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Rune.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Resources\Text\Data\Data_Partner.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_ActorGroup.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Fashion.xml" />
+     <None Include="Assets\Res\Shader\MyMobile Particle ParticleAdd.shader" />
+     <None Include="Assets\Resources\Text\Data\Data_PartnerWake.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+     <None Include="Assets\Resources\Text\Data\Data_PartnerAdvance.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Relics.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_VIP.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Mine.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Property.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Gem.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_BuffAttr.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_Adventure.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_EquipStrengthenLevel.xml" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Resources\Text\Data\Data_EquipSuit.xml" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\Atlas\Atlas_Home.txt" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Resources\Text\Actor\50006.xml" />
+     <None Include="Assets\Resources\Text\Data\Data_World.xml" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Resources\Text\Data\Data_GemLevel.xml" />
+     <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\NGUI\Examples\Resources\Localization.txt" />
+     <None Include="Assets\Resources\Text\Data\Data_SkillTalent.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/untiy_5_4/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/untiy_5_4/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="ArtScriptsLib">
+ <HintPath>C:/Users/joy/Desktop/fsmtest/Assets/Plugins/ArtScriptsLib.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Users/joy/Desktop/fsmtest/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

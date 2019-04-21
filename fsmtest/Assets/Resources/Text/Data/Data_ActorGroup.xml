@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD Id="1" Name="光明魔法议会" ChiefID="2000" ChiefActorType="1"/>
+<RECORD Id="2" Name="黑暗魔法议会" ChiefID="2000" ChiefActorType="1"/>
+<RECORD Id="3" Name="帝国军" ChiefID="2000" ChiefActorType="1"/>
+<RECORD Id="4" Name="冲角团" ChiefID="2000" ChiefActorType="1"/>
+<RECORD Id="5" Name="天灾军团" ChiefID="2000" ChiefActorType="1"/>
+<RECORD Id="6" Name="燃烧军团" ChiefID="2000" ChiefActorType="1"/>
+<RECORD Id="7" Name="远征军" ChiefID="2000" ChiefActorType="1"/>
+<RECORD Id="8" Name="万神殿" ChiefID="2000" ChiefActorType="1"/>
+<RECORD Id="9" Name="圣光议会" ChiefID="2000" ChiefActorType="1"/>
+<RECORD Id="10" Name="影子组织" ChiefID="2000" ChiefActorType="1"/>
+</RECORDS>

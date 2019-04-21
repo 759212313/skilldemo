@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD Id="1" Name="金币日常" Icon="R1" Times="2"/>
+<RECORD Id="2" Name="经验日常" Icon="R2" Times="2"/>
+<RECORD Id="3" Name="水晶日常" Icon="R3" Times="2"/>
+<RECORD Id="4" Name="蛮荒巨兽" Icon="R4" Times="5"/>
+<RECORD Id="5" Name="仙剑大会" Icon="R5" Times="-1"/>
+<RECORD Id="6" Name="开心农场" Icon="R6" Times="-1"/>
+<RECORD Id="7" Name="要塞之战" Icon="R7" Times="-1"/>
+<RECORD Id="8" Name="远古战场" Icon="R1" Times="-1"/>
+<RECORD Id="9" Name="九霄之塔" Icon="R2" Times="9"/>
+<RECORD Id="10" Name="格斗之地" Icon="R3" Times="-1"/>
+<RECORD Id="11" Name="死灵之渊" Icon="R4" Times="-1"/>
+<RECORD Id="12" Name="幻月洞府" Icon="R5" Times="-1"/>
+<RECORD Id="13" Name="冥想之地" Icon="R6" Times="3"/>
+<RECORD Id="14" Name="天地宝库" Icon="R7" Times="1"/>
+</RECORDS>
